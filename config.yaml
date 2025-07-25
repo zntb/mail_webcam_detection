@@ -1,0 +1,31 @@
+camera:
+  index: 0
+  frame_width: 640
+  frame_height: 480
+  fps: 30
+
+motion_detection:
+  sensitivity: 40 # Lower = more sensitive (20-100)
+  motion_threshold: 25
+  min_contour_area: 800 # Reduced for better small object detection
+  motion_cooldown: 45 # Seconds between alerts
+
+file_management:
+  images_dir: 'images'
+  max_images: 50 # Reduced to clean up more aggressively
+  image_format: 'jpg'
+  image_quality: 90
+
+display:
+  show_video: true
+  show_debug: false
+
+email:
+  enabled: true
+
+logging:
+  level: 'INFO' # Change to 'DEBUG' for more details
+
+system:
+  max_retries: 3
+  retry_delay: 0.1

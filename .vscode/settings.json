@@ -3,8 +3,11 @@
     "absdiff",
     "cooldown",
     "dotenv",
+    "fromarray",
     "imshow",
     "imwrite",
+    "levelname",
+    "subtractor",
     "tresh",
     "treshold"
   ]
