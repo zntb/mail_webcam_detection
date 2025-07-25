@@ -1,3 +1,10 @@
 {
-  "cSpell.words": ["absdiff", "imshow", "imwrite", "tresh", "treshold"]
+  "cSpell.words": [
+    "absdiff",
+    "dotenv",
+    "imshow",
+    "imwrite",
+    "tresh",
+    "treshold"
+  ]
 }
